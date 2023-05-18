@@ -24,9 +24,8 @@ class CalculatorTest {
         assertEquals(5, calculator.times(1,5));
     }
 
-    //factorial
     @Test
-    void solver() {
+    void solver() { //factorial
         assertEquals(120, calculator.solver(5));
     }
 }

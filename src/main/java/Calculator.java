@@ -15,9 +15,7 @@ public class Calculator {
         int c = a*b;
         return c;
     }
-
-    //factorial
-    public int solver(int n){
+    public int solver(int n){ //factorial
         int c = 1;
         for (int i = 1; i <= n; i++){
             c = times(c,i);
